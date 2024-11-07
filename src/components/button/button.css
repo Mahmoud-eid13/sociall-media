@@ -1,0 +1,16 @@
+.active {
+  display: none;
+  height: 2.2rem;
+  width: 2.2rem;
+  margin-top: 5px;
+  background-color: #1877f2;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .active {
+    display: inline !important;
+  }
+}

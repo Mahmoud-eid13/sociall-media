@@ -1,0 +1,143 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1360px;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.mode {
+  display: block;
+  position: fixed;
+  top: 2px;
+  right: 10px;
+}
+.login.dark {
+  background-color: #1e1e1e;
+}
+.loginWrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginLogo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1775ee;
+  margin-bottom: 10px;
+}
+.loginDesc {
+  font-size: 1.8rem;
+}
+.darkLoginDesc {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.loginBox {
+  height: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.loginBox.dark {
+  background-color: #02020f;
+}
+.loginInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+  padding-left: 20px;
+}
+.loginInput:focus {
+  outline: none;
+}
+.loginButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(70, 70, 236);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.loginForgot {
+  text-align: center;
+  flood-color: #1775ee;
+}
+.loginRegisterButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+html,
+body {
+  font-size: 16px;
+}
+@media (max-width: 900px) {
+  body,
+  html {
+    font-size: 11px;
+  }
+  .loginWrapper {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .loginBox {
+    height: 250px;
+    padding: 20px;
+  }
+  .loginInput {
+    height: 35px;
+  }
+
+  .loginButton {
+    height: 35px;
+  }
+  .loginRegisterButton {
+    height: 35px;
+  }
+  .loginRight {
+    margin-top: 20px;
+  }
+}
+.logLangOpt {
+  width: 70px;
+  height: 22px;
+  background-color: transparent;
+  display: block;
+  position: fixed;
+  bottom: 0;
+
+  right: 0;
+  z-index: 999;
+}
+.logArLangOpt {
+  width: 70px;
+  height: 22px;
+  background-color: transparent;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}

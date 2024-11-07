@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-theme {
+  --background-color: #1e1e1e;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+body[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+body[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}

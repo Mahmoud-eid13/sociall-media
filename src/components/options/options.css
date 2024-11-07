@@ -1,0 +1,16 @@
+.optionWrapper {
+  position: sticky;
+  background: transparent;
+}
+.lang {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: absolute;
+  z-index: 3;
+}
+.lang.dark {
+  color: white;
+}
